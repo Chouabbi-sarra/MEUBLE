@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;  
+}
+body{
+    background-color: F7EAE0;
+}
+.product{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    
+    .title{
+        margin:0px;
+        color: #946D6D;
+
+    }
+    .h3{
+        margin-top:0px;
+    }
+   .cards{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+      margin-top: 50px;
+      .top{
+         height: 65%;
+         Background-size: cover;
+       
+         BAckground-position: center;
+         Border-radius: 30px 30px 0px 0px;
+      }
+      .button{
+        display:flex;
+        flex-direction: column;
+        margin-top: 0px;
+        padding: 10px;
+       
+     
+      }
+    .button a{
+        text-decoration: none;
+        color: rgb(253, 253, 250);
+        background-color: #f3a6a6;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+        width: 80px;
+        margin:0px auto 0;
+        
+      }
+    .button h2{
+        color: #946D6D;
+        margin-bottom: 10px;
+      }
+    .button p{
+        color:#635C51;
+        margin-bottom: 10px;
+        font-weight: 500;
+      }
+    }
+     }
+   .card{
+      border: 1px solid #f5d8d8;
+      width: 250px;
+      height: 400px;
+      background-color: white;
+      border-radius: 30px;
+      box-shadow: 10px 10px 10px 5px #b4afbd;
+     }
+     
